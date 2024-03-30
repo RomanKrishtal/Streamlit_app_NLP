@@ -1,0 +1,23 @@
+## Install
+
+
+### Spyder installation
+- Load Anaconda and download SPYDER \n
+
+
+### Environnement for streamlit installation
+- With your Anaconda Shell (CMD.EXE for windows users) or cmd shell for macOS users, go where the environment.yml is located in your computer with the command "cd". \n
+Example : cd Desktop/emlyon/streamlit (Copy the path directly)
+Warning : if your folders contains spaces, use double quotes (Documents/"em lyon"/"Streamlit Session"/Session4)
+- When you are at the right location, please enter this command in the shell :
+conda env create -f environment.yml -n StreamlitEnv
+- The kernel starts to process : It takes time (around 10-20 minutes). Let it open.
+- When it's over, enter the command : conda activate StreamlitEnv. 
+Each time you are going to use Streamlit, you must load this environnement to process the app. 
+You can load this environnement with the previous command or activate it before lauching spyder directly in this code.
+This environment already contains plotly, streamlit and pandas.
+- To see if it's work, type in the kernel/cmd : streamlit hello. To close the app, go to your shell again and use Alt + C (option + C)
+
+
+Each time, you will need to load this environment in jupyter notebook and spyder. To do so, go in anaconda > environnmenents and 
+click on Streamlit env. Then you can open Spyder and Jupyter notebook.
