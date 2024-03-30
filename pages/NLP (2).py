@@ -4,7 +4,7 @@ from transformers import pipeline
 import re
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("/Users/roman/Desktop/webapp_streamlit-2/pages/data/emotion_sentimen_dataset.csv")
+df = pd.read_csv("pages/data/emotion_sentimen_dataset.csv")
 df = df[:10000]
 
 st.set_page_config(

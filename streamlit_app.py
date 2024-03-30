@@ -8,6 +8,7 @@ def main():
     introduction_text = """
     # Welcome to the NLP App!
     Brought to you by Roman Krishtal, Zied Mehouachi, Ping Ju (Paula) Chen.
+    
     This app showcases the power of Natural Language Processing (NLP) techniques.
 
     ## What is NLP?

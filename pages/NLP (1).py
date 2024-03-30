@@ -10,7 +10,7 @@ st.header('With this app, we aim to analyze the different topics n\
 
 st.write('The DataFrame is presented below.')
 
-df = pd.read_csv("/Users/roman/Desktop/webapp_streamlit-2/pages/data/emotion_sentimen_dataset.csv", index_col=False)
+df = pd.read_csv("pages/data/emotion_sentimen_dataset.csv", index_col=False)
 
 df = df[:10000]
 
